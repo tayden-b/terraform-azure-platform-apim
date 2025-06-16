@@ -9,7 +9,7 @@ terraform {
     organization = "hashi-org-TF" # 
 
     workspaces {
-      name = "platform-azure-api-management"
+      name = "terraform-azure-platform-apim"
     }
   }
 }
