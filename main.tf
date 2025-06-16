@@ -39,6 +39,7 @@ resource "azurerm_api_management" "platform_apim" {
   tags = {
     "team"      = "platform"
     "managedBy" = "terraform"
+    "cost-center"  = "platform-eng-123"
   }
 }
 
